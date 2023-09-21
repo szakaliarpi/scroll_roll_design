@@ -1,0 +1,187 @@
+.is-flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.is-relative {
+    position: relative;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.is-grid {
+    display: grid;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.gap {
+    gap: 30px;
+}
+
+.gap-7em {
+    gap: 7em;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.pl-90 {
+    padding-left: 90px;
+}
+
+.pl-25 {
+    padding-left: 25px;
+}
+
+.pl-15em {
+    padding-left: 15em;
+}
+
+
+
+@media (min-width: 1200px) {
+    .gap {
+        gap: 50px;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.ml-1em {
+    margin-left: 1em;
+}
+
+.ml-10em {
+    margin-left: 10em;
+}
+
+.two-column-grid {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .two-column-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+@media (min-width: 1200px) {
+    .two-column-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 200px;
+    }
+}
+
+.grid-item {
+
+}
+
+.three-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    height: fit-content;
+    margin: 50px 0;
+    padding: 20px 30px;
+}
+
+@media (min-width: 768px) {
+    .three-column-grid {
+        gap: 50px;
+        margin: 80px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .three-column-grid {
+        gap: 100px;
+        padding: 50px 80px 0 40px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .hide-on-desktop {
+        display: none;
+    }
+}
+
+.introduction-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.bar-chart-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+

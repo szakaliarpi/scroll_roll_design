@@ -1,0 +1,89 @@
+.contact-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-icon {
+    height: 30px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px){
+    .contact-icon {
+        height: 41px;
+    }
+}
+
+.contact-icon:hover {
+    height: 50px;
+}
+
+.contact-info {
+    color: #4E4D4D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.get-in-touch-container {
+    padding: 80px 210px;
+}
+
+.mailbox {
+    width: 100%;
+}
+
+.greeting-title {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 68px;
+    color: #363636;
+}
+
+label {
+    color: #4E4D4D;
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+input {
+    border-radius: 6px;
+    height: 50px;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    color: #4E4D4D;
+    font-family: 'Poppins', serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    border-radius: 6px;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    color: #4E4D4D;
+    font-family: 'Poppins', serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 20px;
+    resize: none;
+    min-height: 270px;
+}
+
+textarea:focus {
+    outline: none;
+}

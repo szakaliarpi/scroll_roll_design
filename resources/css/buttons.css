@@ -1,0 +1,116 @@
+@import 'typeface-poppins';
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1200px) {
+    .button {
+        font-size: 20px;
+    }
+}
+
+.small-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.wide-button {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    padding: 11px 30px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 30px;
+    justify-content: center;
+}
+
+.thick-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 60px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 37px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.button--lightgray {
+    background-color: #f4f4f4;
+    color: #4E4D4D;
+}
+
+.button--lightgray:hover {
+    background-color: #FF6F61;
+    color: #ffffff;
+}
+
+.button--lightgray-active {
+    background-color: #FF6F61;
+    color: #ffffff;
+}
+
+.button--coral {
+    background-color: #FF6F61;
+    color: #fff;
+}
+
+.button--coral:hover {
+    background-color: #fc5144;
+}
+
+.button--white {
+     background-color: #FFFFFF;
+     color: #FF6F61;
+}
+
+.menu__btn {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #FF6F61;
+    transition-duration: .25s;
+}
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}

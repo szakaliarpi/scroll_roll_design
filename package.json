@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@types/siema": "^1.4.8",
+        "axios": "^1.1.2",
+        "google-fonts-webpack-plugin": "^0.4.4",
+        "laravel-vite-plugin": "^0.7.5",
+        "vite": "^3.0.0",
+        "vite-plugin-static-copy": "^0.13.0"
+    },
+    "dependencies": {
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-vue": "^0.8.0",
+        "@vitejs/plugin-vue2": "^2.0.1",
+        "siema": "^1.5.1",
+        "typeface-dm-sans": "^1.1.13",
+        "typeface-dm-serif-display": "^1.1.13",
+        "typeface-inter": "^3.18.1",
+        "typeface-poppins": "^1.1.13",
+        "vue": "^2.6",
+        "vue-class-component": "^7.2",
+        "vue-property-decorator": "^9.1.2"
+    }
+}
